@@ -121,10 +121,18 @@ p4 {
     background: #f9c8cb;
 }
 
+@media screen and (min-width: 960px){
 .btn:hover{
     background: #fff;
     font-size: 17px;
-}
+    }}
+
+@media screen and (max-width: 960px){
+.btn:active{
+    background: #fff;
+    font-size: 17px;
+    }}
+
 
 .info{
     position:absolute;
