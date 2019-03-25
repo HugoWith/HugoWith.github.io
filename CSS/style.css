@@ -57,7 +57,6 @@ body{
     
 }
 
-cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*emojicursor.app*/
 
 img {
     width: 100%;
@@ -85,7 +84,7 @@ p4 {
 .overlay {
     opacity: 0;
     transition: 0.50s;
-    background: rgb(0,0,0,0.4);
+    background: rgb(0,0,0,0.5);
     
     
     
@@ -93,7 +92,7 @@ p4 {
 
 .overlay:hover {
     opacity: 1;
-    background: rgb(0,0,0,0.7);
+    background: rgb(0,0,0,0.8);
    
 }
 
