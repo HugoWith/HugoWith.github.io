@@ -90,19 +90,14 @@ p4 {
     
 }
 
-@media screen and (min-width: 960px){
-.overlay:hover {
-    opacity: 1;
-    background: rgb(0,0,0,0.8);
-   
-    }}
 
-@media screen and (max-width: 960px){
-.overlay:active {
+.overlay.taphover:hover, .overlay.taphover.hover{
     opacity: 1;
     background: rgb(0,0,0,0.8);
    
-    }}
+    }
+
+
 
 
 .card-text{
@@ -152,7 +147,12 @@ p4 {
 
 a {
     cursor: pointer;
+    text-decoration: white;
     
+}
+
+a:hover{
+    color: white;
 }
 
 /*FOOTER*/
@@ -177,11 +177,7 @@ footer {
     
 }
 
-.pf{
-    
-    
-    
-}
+
 
 .logoFB{
     color: #f9c8cb;
@@ -198,11 +194,11 @@ footer {
 
 .logoFB:hover p1{
     
+    text-decoration: none;
     color: #fff;
     font-size: 12px;
     position: absolute;
     margin-top: 10px;
-    color: white;
     display: block;
     font-family: "Archivo Black", sans-serif;
     margin: 2 auto;
@@ -219,13 +215,14 @@ footer {
 .logoTW p2{
     position: absolute;
     display: none;
+
 }
 
 
 
 .logoTW:hover p2{
     
-    color: #fff;
+    text-decoration-color: white;
     font-size: 12px;
     position: absolute;
     margin-top: 10px;
